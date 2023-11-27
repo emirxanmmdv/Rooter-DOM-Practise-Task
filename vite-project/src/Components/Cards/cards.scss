@@ -1,0 +1,12 @@
+.cards{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    .card{
+        border: 1px solid black;
+        ul{
+            .clickBtn{
+                margin-top: 20px;
+            }
+        }
+    }
+}
